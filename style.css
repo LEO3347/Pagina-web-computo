@@ -197,7 +197,17 @@ main .sobre-nosotros {
     background: #c0c0c0;
     display: flex;
     width: 46%;
-    height: 200px;
+    height: 280px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+.cards .card {
+    background: #c0c0c0;
+    display: flex;
+    width: 46%;
+    height: 280px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -205,8 +215,8 @@ main .sobre-nosotros {
 }
 
 .cards .card img {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
     border: 3x solid #fff;
     border-radius: 50%;
